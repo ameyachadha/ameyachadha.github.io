@@ -1,0 +1,103 @@
+h1 {
+	color:#50f442;
+	text-align:center;
+	font-size:7vw;
+	font-family:"timeburnerbold";
+
+}
+
+.gallery img {
+    width: auto;
+    height: 100px;
+	text-align:center;
+	vertical-align:middle;
+    padding-top: 20px;
+	
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #50f442;
+    float:left;
+    width: 300px;
+	text-align:center;
+	background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+
+.gallery:hover > .desc {
+	color: black;
+	font-family:"timeburnernormal";
+	
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+    background-color:#50f442;
+	background-color: rgba(255,215,0, 0.9);
+    color:black;
+	border: 1px solid #50f442;
+	
+	
+}
+
+
+.desc {
+    padding: 15px;
+    text-align: center;
+	font-family:"timeburnernormal";
+    color:#50f442;
+}
+
+body {
+	background-image:url("coolgif.gif");
+	background-image:fill;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+
+div.container {
+	
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	width:60em;
+}
+
+
+
+@font-face {
+	font-family:"timeburnerbold";
+	src: url(timeburnerbold.ttf);
+}
+@font-face {
+	font-family:"timeburnernormal";
+	src: url(timeburnernormal.ttf);
+}
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
